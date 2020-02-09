@@ -11,6 +11,7 @@ body {
 	color: #231f20;
 	-ms-overflow-style: none;  // IE 10+
 	overflow: -moz-scrollbars-none;  // Firefox
+	position: absolute;
 }
 
 body::-webkit-scrollbar { 
@@ -71,14 +72,23 @@ body::-webkit-scrollbar {
 	padding-top: 5px;
 }
 
+#flex {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#flex img {
+
+}
+
 #content {
 	width: 100%;
 	height: 100%;
-	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
-	overflow-x: none;
 }
 
 #logo {
@@ -92,18 +102,10 @@ body::-webkit-scrollbar {
 	width: 100%;
 }
 
-/*.wrapper {
-	display: flex;
-	width: 100%;
-	position: relative;
-	top: 0px;
-	left: 0;
-}
-*/
 .wrapper {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	position: relative;
 	top: 53px;
@@ -111,25 +113,26 @@ body::-webkit-scrollbar {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	padding: 0px 5px 0px 5px;
 }
 
-.wrapper img {
-	height: auto;
+#work img {
 	/*padding: 10px;*/
 	padding: 10px;
 	flex: 1 1 auto;
 	box-sizing: border-box;
 	display: inline-block;
 	border-radius: 14px;
+	height: 40%;
+	width: auto;
 }	
 
 #work {
 	margin-top: 0px;
 }
 
-.col-1 {
+/*.col-1 {
 	width: 100%;
 }
 
@@ -143,7 +146,7 @@ body::-webkit-scrollbar {
 
 .col-4 {
 	width: 57.5%;
-}
+}*/
 
 /*********************PRESS*/
 
@@ -227,3 +230,17 @@ body::-webkit-scrollbar {
 	}
 }	
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
