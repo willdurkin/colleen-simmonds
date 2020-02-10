@@ -271,6 +271,22 @@ body::-webkit-scrollbar {
 	#flex li {
 		height: 38vh!important;
 	}
+
+	#bio-headshot {
+		width: 70%;
+		float: none;
+		margin-top: 40px;
+	}
+
+	#bio-blurb {
+		width: 100%;
+		float: none;
+	}
+
+	#bio-blurb p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 }
 
 
